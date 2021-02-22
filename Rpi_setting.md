@@ -48,7 +48,7 @@ chromium-browser  --noerrdialogs --disable-infobars --kiosk $KIOSK_URL
 </code></pre>  
 18. Download the game from github  
 <pre><code>sudo apt-get install git</code></pre>  
-<pre><code>sudo git clone https://github.com/ncase/trust</code></pre>  
+<pre><code>sudo git clone https://github.com/Asvoria/trust_Kiosk_Rpi_loop</code></pre>  
 19. Install npm and http-server: 
 <pre><code>sudo apt-get install npm</code></pre>  
 <pre><code>sudo npm install npm@latest -g</code></pre>  
@@ -66,4 +66,6 @@ chromium-browser  --noerrdialogs --disable-infobars --kiosk $KIOSK_URL
 <pre><code>sudo reboot</code></pre>  
 
 ## Offline code edit
-Since the device is not connected to internet, all links that is directed to outside may not work. Therefore, the fork of this repository had the links deactivated.
+Since the device is not connected to internet, all links that is directed to outside may not work. Therefore, the fork of this repository had the links deactivated.  
+
+There are only 2 version available at my repository: English and Chinese (Simplified)
