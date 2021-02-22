@@ -21,6 +21,8 @@ network={
 9. Update: sudo apt-get update  
 10. Configure startup settings:  
 <pre><code>sudo raspi-config</code></pre>  
-13.System Options>boot>Console Autologin
-14.Advanced Options>Overscan
-
+11. System Options>boot>Console Autologin  
+12. Install minimum GUI components  
+<pre><code>sudo apt-get install --no-install-recommends xserver-xorg x11-xserver-utils xinit openbox</code></pre>  
+14. Install Chromium Web browser  
+<pre><code>sudo apt-get install --no-install-recommends xserver-xorg x11-xserver-utils xinit openbox</code></pre>  
