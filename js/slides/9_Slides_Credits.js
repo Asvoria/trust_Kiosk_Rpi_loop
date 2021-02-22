@@ -10,6 +10,11 @@ SLIDES.push({
 			text_id:"credits", color:"#fff"
 		});
 		
-		
+		// Button
+		self.add({
+			id:"button", type:"Button", x:615, y:481, 
+			text_id:"conclusion_btn", size:"long",
+			message:"slideshow/scratch"
+		});
 	}
 });
