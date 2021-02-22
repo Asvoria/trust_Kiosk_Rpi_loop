@@ -11,7 +11,10 @@ Please send love, praises and support to the original author!
 For the original repository:  
 https://github.com/ncase/trust
 
-Because the link to the author credits was removed, it is replace with a QR code to enable people gain access to the author, and link materials.  
+# Modifications for the Kiosk version:
+1. Because the link to the author credits was removed, it is replace with a QR code to enable people gain access to the author, and link materials.  
+2. Peeps section displayed at the end slide with scrolling credits view. Thanks to malkafly: https://github.com/malkafly/endcredits  
+3. Footnote section is a QR code to the link of the original footnote. I can't expect people to stand in front of the screen to read all of it.  
 
 # Original Version: [http://ncase.me/trust/](http://ncase.me/trust/)
 
