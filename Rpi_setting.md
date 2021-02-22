@@ -64,3 +64,6 @@ chromium-browser  --noerrdialogs --disable-infobars --kiosk $KIOSK_URL
 <pre><code>source ~/.bash_profile</code></pre> 
 <pre><code>npm install npm@latest -g</code></pre>  
 <pre><code>sudo reboot</code></pre>  
+
+## Offline code edit
+Since the device is not connected to internet, all links that is directed to outside may not work. Therefore, the fork of this repository had the links deactivated.
