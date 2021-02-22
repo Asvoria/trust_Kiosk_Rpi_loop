@@ -1,5 +1,8 @@
 !["The Evolution of Trust"](https://i.imgur.com/kde760y.png)
 
+This is a modification to put the game into Raspberry Pi Kiosk mode.   
+The whole game is running offline in loop.  
+
 #	PLAY IT HERE: [http://ncase.me/trust/](http://ncase.me/trust/)
 
 *The Evolution of Trust* is dedicated to the public domain, and is made thanks to the many Creative Commons & open source resources out there! Here is a full list of music, sounds, and code used:
