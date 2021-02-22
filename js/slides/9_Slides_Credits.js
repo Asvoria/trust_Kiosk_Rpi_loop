@@ -12,7 +12,7 @@ SLIDES.push({
 		
 		// Button
 		self.add({
-			id:"button", type:"Button", x:355, y:400, 
+			id:"button", type:"Button", x:325, y:320, 
 			text_id:"tocreditsk_btn", size:"long"
 		});
 	}
