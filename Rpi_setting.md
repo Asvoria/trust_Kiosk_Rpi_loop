@@ -26,3 +26,13 @@ network={
 <pre><code>sudo apt-get install --no-install-recommends xserver-xorg x11-xserver-utils xinit openbox</code></pre>  
 14. Install Chromium Web browser  
 <pre><code>sudo apt-get install --no-install-recommends xserver-xorg x11-xserver-utils xinit openbox</code></pre>  
+15. Edit Openbox config: When Openbox launches at startup it will run two scripts in the /etc/xdg/openbox folder. The first, environment will setup any environment variables, etc. The second, autostart will setup and launch whatever app you specify.
+
+16. Edit the autostart file and then how to add environment variables to support it.
+<pre><code>sudo nano /etc/xdg/openbox/autostart</code></pre>  
+<pre><code>xset -dpms			# turn off display power management system
+xset s noblank		# turn off screen blanking
+xset s off			# turn off screen saver</code></pre>  
+
+
+<pre><code></code></pre>  
