@@ -11,7 +11,7 @@ Please send love, praises and support to the original author!
 For the original repository:  
 https://github.com/ncase/trust
 
-Because the link to the author credits was removed, it is replace with a QR code to enable people gain access to the author.  
+Because the link to the author credits was removed, it is replace with a QR code to enable people gain access to the author, and link materials.  
 
 
 #	PLAY IT HERE: [http://ncase.me/trust/](http://ncase.me/trust/)
