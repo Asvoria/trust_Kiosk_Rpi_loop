@@ -53,7 +53,6 @@ chromium-browser  --noerrdialogs --disable-infobars --kiosk $KIOSK_URL
 <pre><code>sudo apt-get install npm</code></pre>  
 <pre><code>sudo npm install npm@latest -g</code></pre>  
 <pre><code>sudo npm install -g http-server</code></pre>  
-
 19. Setup the environment  
 <pre><code>sudo nano /etc/xdg/openbox/environment</code></pre>  
 <pre><code>export KIOSK_URL=http://localhost:8080/</code></pre>  
@@ -63,5 +62,5 @@ chromium-browser  --noerrdialogs --disable-infobars --kiosk $KIOSK_URL
 <pre><code>[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && startx -- -nocursor</code></pre>  
 21. Run the following line and then reboot:    
 <pre><code>source ~/.bash_profile</code></pre> 
-
 <pre><code>npm install npm@latest -g</code></pre>  
+<pre><code>sudo reboot</code></pre>  
