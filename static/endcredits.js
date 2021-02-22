@@ -7,6 +7,9 @@
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * 
+ * Check out original code at: 
+ * https://github.com/malkafly/endcredits/blob/master/static/endcredits.js
  */
 $(document).ready(function () {
 
