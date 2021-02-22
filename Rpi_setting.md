@@ -16,10 +16,11 @@ network={
     key_mgmt=WPA-PSK
 }
 </code></pre>  
-7. Install Bonjour Service: https://support.apple.com/kb/DL999?locale=en_US  
-8. Intall putty: https://www.putty.org
-9. Use putty to ssh into Rpi: host name: raspberrypi.local
-10. If fail, use nmap: https://nmap.org/download.html
-11. Find the Rpi ip address using following command at terminal:
+7. Intall putty: https://www.putty.org
+8. Use putty to ssh into Rpi: find the Ip address when power on Rpi
+9. Update: sudo apt-get update  
+10. Configure startup settings:  
+<pre><code>sudo raspi-config</code></pre>  
+13.System Options>boot>Console Autologin
+14.Advanced Options>Overscan
 
-<pre><code>nmap -sn 192.168.0.1/24</code></pre>  
