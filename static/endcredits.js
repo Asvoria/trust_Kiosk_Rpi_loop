@@ -1,5 +1,5 @@
 /*
- * jQuery endcreditsk Plugin
+ * jQuery endcredits Plugin
  *
  * Copyright (c) 2014 Daniel Malkafly <malk@epichail.com>
  * Dual licensed under the MIT or GPL Version 2 licenses or later.
@@ -9,7 +9,7 @@
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  * 
  * Check out original code at: 
- * https://github.com/malkafly/endcreditsk/blob/master/static/endcreditsk.js
+ * https://github.com/malkafly/endcredits/blob/master/static/endcredits.js
  */
 $(document).ready(function () {
 
@@ -19,26 +19,26 @@ $(document).ready(function () {
         var maskHeight = $(document).height();
         var maskWidth = $(window).width();
 
-        $('#titlesk').css({
+        $('#titles').css({
             'width': maskWidth,
             'height': maskHeight
         });
 
-        $('#titlesk').fadeIn(1000);
-        $('#titlesk').fadeTo("slow");
-        $('#titlesk').fadeIn();
-        $('#creditsk').css("left", (($('#creditsk').parent().width() - $('#creditsk').outerWidth()) / 2) + "px");
-        $('#creditsk').css("bottom", "-" + (maskHeight * 2) + "px");
-        $('#creditsk').show('slow');
+        $('#titles').fadeIn(1000);
+        $('#titles').fadeTo("slow");
+        $('#titles').fadeIn();
+        $('#credits').css("left", (($('#credits').parent().width() - $('#credits').outerWidth()) / 2) + "px");
+        $('#credits').css("bottom", "-" + (maskHeight * 2) + "px");
+        $('#credits').show('slow');
 
-        $('#creditsk').animate({
+        $('#credits').animate({
             bottom: maskHeight + "px"
         }, {
             duration: 30000,
             complete: function () {
-                $('#titlesk').fadeOut();
+                $('#titles').fadeOut();
                 $('.window').fadeOut();
-                $('#creditsk').css("bottom", "-" + (maskHeight * 2) + "px");
+                $('#credits').css("bottom", "-" + (maskHeight * 2) + "px");
             },
             step: function (n, t) {
                 var pos = $(this).position();
@@ -50,14 +50,14 @@ $(document).ready(function () {
 
     $('.window .close').click(function (e) {
         e.preventDefault();
-        $('#creditsk').css("bottom", "-" + ($(document).height() * 2) + "px");
-        $('#titlesk').hide();
+        $('#credits').css("bottom", "-" + ($(document).height() * 2) + "px");
+        $('#titles').hide();
         $('.window').hide();
     });
 
-    $('#titlesk').click(function () {
+    $('#titles').click(function () {
         $(this).hide();
-        $('#creditsk').css("bottom", "-" + ($(document).height() * 2) + "px");
+        $('#credits').css("bottom", "-" + ($(document).height() * 2) + "px");
         $('.window').hide();
     });
 });
