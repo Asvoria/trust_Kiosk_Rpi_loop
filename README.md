@@ -2,10 +2,14 @@
 
 This is a modification to put the game into Raspberry Pi Kiosk mode.   
 The whole game is running offline in loop.  
+The purpose of this project is to have an interactive device to let people play this game on a touch screen. Probably while they hang around in a mall or happen to see the device installation. The demo is done with smaller touch screen, but it can be working on larger touch screen as well. 
 22/02/2021 by Asvoria Kuan
 
+# The Original
+<span style="font-size:larger;">This game is designed by Nicky Case: https://ncase.me/  
+Please send love, praises and support to the original author!
 For the original repository:  
-https://github.com/ncase/trust
+https://github.com/ncase/trust </span>
 
 #	PLAY IT HERE: [http://ncase.me/trust/](http://ncase.me/trust/)
 
