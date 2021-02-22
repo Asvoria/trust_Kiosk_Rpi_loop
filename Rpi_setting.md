@@ -56,7 +56,7 @@ chromium-browser  --noerrdialogs --disable-infobars --kiosk $KIOSK_URL
 
 19. Setup the environment  
 <pre><code>sudo nano /etc/xdg/openbox/environment</code></pre>  
-<pre><code>export KIOSK_URL=/home/pi/trust</code></pre>  
+<pre><code>export KIOSK_URL=http://localhost:8080/</code></pre>  
 20. Start the X server on boot  
 <pre><code>touch ~/.bash_profile</code></pre> 
 <pre><code>sudo nano ~/.bash_profile</code></pre> 
