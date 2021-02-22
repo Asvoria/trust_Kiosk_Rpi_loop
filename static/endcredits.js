@@ -13,7 +13,7 @@
  */
 $(document).ready(function () {
 
-    $('input[name=tocreditsk_btn]').click(function (e) {
+    $('#tocreditsk_btn').click(function (e) {
         e.preventDefault();
         
         var maskHeight = $(document).height();
