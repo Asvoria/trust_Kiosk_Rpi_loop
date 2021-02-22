@@ -11,6 +11,9 @@ Please send love, praises and support to the original author!
 For the original repository:  
 https://github.com/ncase/trust
 
+Because the link to the author credits was removed, it is replace with a QR code to enable people gain access to the author.  
+
+
 #	PLAY IT HERE: [http://ncase.me/trust/](http://ncase.me/trust/)
 
 *The Evolution of Trust* is dedicated to the public domain, and is made thanks to the many Creative Commons & open source resources out there! Here is a full list of music, sounds, and code used:
