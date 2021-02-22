@@ -13,6 +13,7 @@ update_config=1
 network={
     ssid="NETWORK-NAME"
     psk="NETWORK-PASSWORD"
+    key_mgmt=WPA-PSK
 }
 </code></pre>  
 7. Install Bonjour Service: https://support.apple.com/kb/DL999?locale=en_US  
