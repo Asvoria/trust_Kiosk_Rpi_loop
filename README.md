@@ -6,7 +6,7 @@ The purpose of this project is to have an interactive device to let people play 
 22/02/2021 by Asvoria Kuan
 
 # The Original
-<font size="5">This game is designed by Nicky Case: https://ncase.me/  
+<font size="10">This game is designed by Nicky Case: https://ncase.me/  
 Please send love, praises and support to the original author!
 For the original repository:  
 https://github.com/ncase/trust </font>
