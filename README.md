@@ -1,7 +1,7 @@
 !["The Evolution of Trust"](https://i.imgur.com/kde760y.png)
 
 This is a modification to put the game into Raspberry Pi Kiosk mode.   
-The whole game is running offline in loop. 
+The whole game is running offline in loop.  
 22/02/2021 by Asvoria Kuan
 
 #	PLAY IT HERE: [http://ncase.me/trust/](http://ncase.me/trust/)
