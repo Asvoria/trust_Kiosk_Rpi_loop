@@ -5,6 +5,8 @@ The whole game is running offline in loop.
 The purpose of this project is to have an interactive device to let people play this game on a touch screen. Probably while they hang around in a mall or happen to see the device installation. The demo is done with smaller touch screen, but it can be working on larger touch screen as well.  
 22/02/2021 by Asvoria Kuan
 
+![](https://github.com/Asvoria/trust_Kiosk_Rpi_loop/blob/gh-pages/rpi_demo.jpeg)
+
 # The Original
 This game is designed by Nicky Case: https://ncase.me/  
 Please send love, praises and support to the original author!
