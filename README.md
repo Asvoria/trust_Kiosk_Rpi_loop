@@ -159,6 +159,28 @@ chromium-browser  --noerrdialogs --disable-infobars --kiosk $KIOSK_URL
 <pre><code>npm install npm@latest -g</code></pre>  
 <pre><code>sudo reboot</code></pre>  
 
+## Vertical Screen Setup  
+1. Modify the config file:
+<pre><code>sudo nano /boot/config.txt</code></pre>  
+2. Add line: display_rotate=1 for 90 degree rotation
+3. Install the following library:
+<pre><code>sudo apt-get install xserver-xorg-input-libinput
+sudo mkdir /etc/X11/xorg.conf.d
+sudo cp /usr/share/X11/xorg.conf.d/40-libinput.conf /etc/X11/xorg.conf.d/
+sudo nano /etc/X11/xorg.conf.d/40-libinput.conf</code></pre>  
+4. Add the following lines after as follows:
+<pre><code>Section "InputClass"
+        Identifier "libinput touchscreen catchall"
+        MatchIsTouchscreen "on"
+        Option "CalibrationMatrix" "0 1 0 -1 0 1 0 0 1"
+        MatchDevicePath "/dev/input/event*"
+        Driver "libinput"
+EndSection</code></pre>  
+5. Save, exit and reboot.  
+
+
+
+
 ## Offline code edit
 Since the device is not connected to internet, all links that is directed to outside may not work. Therefore, the fork of this repository had the links deactivated.  
 
