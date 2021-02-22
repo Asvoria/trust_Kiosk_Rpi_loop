@@ -38,7 +38,7 @@ https://github.com/ncase/trust
 
 **Font:** [Futura Handwritten](http://www.dafont.com/futurahandwritten.font) by Bill Snyder
 
-#	How-To: Translate this thang!
+#	Translation Available!
 
 **[IMPORTANT:
 BEFORE YOU DECIDE TO MAKE A TRANSLATION, CHECK THE "ISSUES" TAB ABOVE,
@@ -85,7 +85,7 @@ Translations done so far:
 [Armenian](https://kamee.gitlab.io/trust/),
 [Filipino (Tagalog)](https://tiwalaph.github.io/TiwalaPH/)
 
-# Raspberry Pi setting instructions For Windows
+# Raspberry Pi Setup Instructions For Windows
 
 1. Download Raspbian lite: https://www.raspberrypi.org/software/operating-systems/  
 2. Format SD card using SD Card Formatter: https://www.sdcard.org/downloads/formatter/  
