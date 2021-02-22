@@ -13,8 +13,7 @@ SLIDES.push({
 		// Button
 		self.add({
 			id:"button", type:"Button", x:385, y:481, 
-			text_id:"tocreditsk_btn", size:"long",
-			message:"slideshow/scratch"
+			text_id:"tocreditsk_btn", size:"long"
 		});
 	}
 });
