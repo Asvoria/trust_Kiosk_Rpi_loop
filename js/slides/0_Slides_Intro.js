@@ -67,6 +67,12 @@ SLIDES.push({
 
 		// Button
 		self.add({
+			id:"testing", type:"Button", x:382, y:460,
+			text_id:"testing",
+			active:false
+		});
+		
+		self.add({
 			id:"loading_button", type:"Button", x:382, y:410,
 			text_id:"loading",
 			active:false
