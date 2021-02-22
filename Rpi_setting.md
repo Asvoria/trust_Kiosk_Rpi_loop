@@ -46,7 +46,6 @@ chromium-browser  --noerrdialogs --disable-infobars --kiosk $KIOSK_URL
 18. Download the game from github  
 <pre><code>sudo apt-get install git</code></pre>  
 <pre><code>sudo git clone https://github.com/ncase/trust</code></pre>  
-
 19. Setup the environment  
 <pre><code>sudo nano /etc/xdg/openbox/environment</code></pre>  
 <pre><code>export KIOSK_URL=/home/pi/trust</code></pre>  
