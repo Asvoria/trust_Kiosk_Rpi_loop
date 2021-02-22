@@ -16,4 +16,5 @@ network={
 }
 </code></pre>  
 7. Install Bonjour Service: https://support.apple.com/kb/DL999?locale=en_US  
-8. Use putty to ssh into Rpi: host name: raspberrypi.local
+8. Intall putty: https://www.putty.org
+9. Use putty to ssh into Rpi: host name: raspberrypi.local
