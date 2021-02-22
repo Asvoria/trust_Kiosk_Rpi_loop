@@ -12,8 +12,8 @@ SLIDES.push({
 		
 		// Button
 		self.add({
-			id:"button", type:"Button", x:615, y:481, 
-			text_id:"conclusion_btn", size:"long",
+			id:"button", type:"Button", x:385, y:481, 
+			text_id:"tocreditsk_btn", size:"long",
 			message:"slideshow/scratch"
 		});
 	}
