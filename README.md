@@ -2,7 +2,7 @@
 
 This is a modification to put the game into Raspberry Pi Kiosk mode.   
 The whole game is running offline in loop.  
-The purpose of this project is to have an interactive device to let people play this game on a touch screen. Probably while they hang around in a mall or happen to see the device installation. The demo is done with smaller touch screen, but it can be working on larger touch screen as well. 
+The purpose of this project is to have an interactive device to let people play this game on a touch screen. Probably while they hang around in a mall or happen to see the device installation. The demo is done with smaller touch screen, but it can be working on larger touch screen as well.  
 22/02/2021 by Asvoria Kuan
 
 # The Original
