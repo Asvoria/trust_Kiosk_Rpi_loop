@@ -543,3 +543,7 @@ s{
 	color:#ee5151;
 }
 
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
