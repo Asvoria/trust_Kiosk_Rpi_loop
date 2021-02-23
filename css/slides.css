@@ -556,6 +556,6 @@ s{
   table-layout: fixed ;
   width: 100% ;
 }
-td {
+.td {
   width: 25% ;
 }
