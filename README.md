@@ -137,7 +137,7 @@ sed -i 's/"exited_cleanly":false/"exited_cleanly":true/' ~/.config/chromium/'Loc
 sed -i 's/"exited_cleanly":false/"exited_cleanly":true/; s/"exit_type":"[^"]\+"/"exit_type":"Normal"/' ~/.config/chromium/Default/Preferences
 
 # Start local server
-/usr/local/bin/http-server /home/pi/trust &
+/usr/local/bin/http-server /home/pi/trust_Kiosk_Rpi_loop &
 
 # Run Chromium in kiosk mode
 chromium-browser  --noerrdialogs --disable-infobars --kiosk $KIOSK_URL
