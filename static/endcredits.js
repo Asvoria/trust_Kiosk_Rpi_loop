@@ -11,6 +11,7 @@
  * Check out original code at: 
  * https://github.com/malkafly/endcreditsk/blob/master/static/endcreditsk.js
  */
+jQuery.noConflict();
 $(document).ready(function () {
 
     $('a[name=creditos]').click(function (e) {
