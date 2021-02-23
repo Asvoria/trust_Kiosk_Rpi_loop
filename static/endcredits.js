@@ -12,8 +12,8 @@
  * https://github.com/malkafly/endcreditsk/blob/master/static/endcreditsk.js
  */
 
-jQuery.noConflict();
-jQuery(document).ready(function () {
+
+$(document).ready(function () {
     
 
     $('a[name=creditos]').click(function (e) {
