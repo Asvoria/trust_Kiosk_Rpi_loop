@@ -13,7 +13,7 @@
  */
 
 jQuery.noConflict();
-$(document).ready(function () {
+jQuery(document).ready(function () {
     
 
     $('a[name=creditos]').click(function (e) {
